@@ -1,4 +1,4 @@
-const _ = require('./node_modules/lodash');
+const _ = require('lodash');
 
 var arr = [1,2,3,4,5,6];
 console.log('answer', _.without(arr, 3));
